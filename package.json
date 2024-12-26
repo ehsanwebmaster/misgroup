@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "watch": "npx tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "owl.carousel": "^2.3.4",
+    "slick-slider": "^1.8.2",
+    "uikit": "^3.21.16"
+  }
+}

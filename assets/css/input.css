@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Inter";
+  font-style: NORMAL_OR_ITALIC;
+  font-weight: NUMERIC_WEIGHT_VALUE;
+  src: url("./../fonts/inter/Inter-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "InterBold";
+  font-style: NORMAL_OR_ITALIC;
+  font-weight: NUMERIC_WEIGHT_VALUE;
+  src: url("./../fonts/inter/Inter-SemiBold.woff2") format("woff2");
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

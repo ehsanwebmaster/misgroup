@@ -1,0 +1,130 @@
+/* Header */
+:root {
+  --mainColor: #3f8bfa;
+  --secondColor: #2a2b3c;
+}
+html {
+  scroll-behavior: smooth;
+}
+a {
+  transition: all 0.3s;
+}
+a:hover {
+  text-decoration: none;
+}
+.aligncenter,
+img.aligncenter {
+  clear: both;
+  display: block;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+input:focus {
+  border: 1px solid rgba(255, 255, 255, 0.9) !important;
+  outline: none !important;
+}
+.glass {
+  /* From https://css.glass */
+  background: rgba(0, 0, 0, 0.744);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+/* OWL */
+.owl-dots {
+  text-align: left;
+  margin-top: -3rem;
+  padding-left: 1.5rem;
+  position: relative;
+  z-index: 999;
+}
+.owl-dots button.owl-dot {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  border: 1px solid rgb(229, 231, 235);
+  margin: 0 3px;
+}
+.owl-dots button.owl-dot.active {
+  background-color: white;
+}
+.owl-dots button.owl-dot:focus {
+  outline: none;
+}
+/* Menu */
+.category-menu li {
+  border-bottom: 1px solid rgb(229, 231, 235);
+}
+.category-menu li:last-child {
+  border-bottom: 0px;
+}
+.category-menu li a {
+  padding: 0.79rem 0 0.79rem 0.5rem;
+  display: block;
+}
+.category-menu li a:hover {
+  padding-left: 1rem;
+  color: var(--mainColor);
+}
+.main-menu li a {
+  padding: 1rem 2rem;
+  display: block;
+  border-right: 1px solid rgb(229, 231, 235);
+}
+.main-menu li a:hover {
+  background-color: black;
+  color: white;
+}
+/* boxes */
+.bottom-img {
+  transition: all 0.5s;
+}
+.bottom-box:hover .bottom-img {
+  transform: scale(1.4) translateX(0px) rotate(10deg);
+}
+/* New arrival */
+.active-btn {
+  background-color: black;
+  color: white;
+}
+#newarrivalslider .owl-item {
+  margin-bottom: 0.5rem;
+}
+.product-item:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.home-product_items .owl-carousel .owl-stage-outer {
+  height: calc(100% + 30px);
+  margin: -15px;
+  padding: 15px;
+  width: calc(100% + 30px);
+}
+#brandslider img {
+  width: 6rem !important;
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+#brandslider img:hover {
+  opacity: 1;
+}
+/* Story */
+.storybox:hover section {
+  opacity: 0.5;
+}
+/* Single Product */
+.uk-accordion > :nth-child(n + 2) {
+  margin-top: 0px;
+}
+/* COLOR PICKER */
+.color-swatch:hover,
+.color-swatch.active {
+  border-color: black;
+  box-shadow: 0 0 0 2px black;
+}
+
+.size-btn:hover,
+.size-btn.active {
+  border-color: black;
+  background-color: #f3f3f3;
+}
+/* COLOR PICKER */
