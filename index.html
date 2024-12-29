@@ -72,21 +72,124 @@
             </section>
         </section>
         <!--OffCanvas-->
-        <section class="xl:hidden" id="offcanvas-push" uk-offcanvas="mode: push; overlay: true; flip: true">
+        <section class="xl:hidden" id="offcanvas-push" uk-offcanvas="overlay: true; flip: true">
             <section class="uk-offcanvas-bar">
                 <button class="uk-offcanvas-close" type="button" uk-close></button>
 
             </section>
         </section>
         <!--OffCanvas-->
+        <!-- Start-MainMenu -->
+        <!-- MainMenu -->
+        <section class="container mx-auto px-10 hidden xl:block">
+            <section class="grid grid-cols-6">
+                <section class="col-span-1">
+                    <section class="w-full relative">
+                        <button href="#toggle-animation"
+                            class="flex flex-row gap-2 justify-center items-center w-full bg-black py-4"
+                            uk-toggle="target: #toggle-animation; animation: uk-animation-fade">
+                            <img class=" w-5" src="./assets/img/icons/bars.svg" alt="">
+                            <span class="text-white font-interBold">Kategorien</span>
+                        </button>
+                        <section class="col-span-1">
+                            <nav id="toggle-animation" class="bg-white w-full absolute z-20">
+                                <ul class="category-menu bg-white border-2 border-gray-100 flex flex-col ps-3 pe-3">
+                                    <li><a href="#">
+                                            <section class="flex flex-row gap-2 items-center">
+                                                <img src="./assets/img/icons/tshirt.svg" class="text-black" width="28"
+                                                    height="28" alt="T-shirt" uk-svg>
+                                                <h3>T-Shirt</h3>
+                                            </section>
+                                        </a></li>
+                                    <li><a href="#">
+                                            <section class="flex flex-row gap-2 items-center">
+                                                <img src="./assets/img/icons/shoes.svg" class="text-black" width="28"
+                                                    height="28" alt="Schuhe" uk-svg>
+                                                <h3>Schuhe</h3>
+                                            </section>
+                                        </a></li>
+                                    <li><a href="#">
+                                            <section class="flex flex-row gap-2 items-center">
+                                                <img src="./assets/img/icons/Sweather.svg" class="text-black" width="28"
+                                                    height="28" alt="Schuhe" uk-svg>
+                                                <h3>Sweatshirt</h3>
+                                            </section>
+                                        </a></li>
+                                    <li><a href="#">
+                                            <section class="flex flex-row gap-2 items-center">
+                                                <img src="./assets/img/icons/watch.svg" class="text-black" width="28"
+                                                    height="28" alt="Schuhe" uk-svg>
+                                                <h3>Uhren</h3>
+                                            </section>
+                                        </a></li>
+                                    <li><a href="#">
+                                            <section class="flex flex-row gap-2 items-center">
+                                                <img src="./assets/img/icons/pants.svg" class="text-black" width="28"
+                                                    height="28" alt="Schuhe" uk-svg>
+                                                <h3>Hose</h3>
+                                            </section>
+                                        </a></li>
+                                    <li><a href="#">
+                                            <section class="flex flex-row gap-2 items-center">
+                                                <img src="./assets/img/icons/hat.svg" class="text-black" width="28"
+                                                    height="28" alt="Schuhe" uk-svg>
+                                                <h3>Hut</h3>
+                                            </section>
+                                        </a></li>
+                                    <li><a href="#">
+                                            <section class="flex flex-row gap-2 items-center">
+                                                <img src="./assets/img/icons/tie.svg" class="text-black" width="28"
+                                                    height="28" alt="Schuhe" uk-svg>
+                                                <h3>Krawatte</h3>
+                                            </section>
+                                        </a></li>
+                                    <li><a href="#">
+                                            <section class="flex flex-row gap-2 items-center">
+                                                <img src="./assets/img/icons/suit.svg" class="text-black" width="28"
+                                                    height="28" alt="Schuhe" uk-svg>
+                                                <h3>Anzug</h3>
+                                            </section>
+                                        </a></li>
+                                    <li><a href="#">
+                                            <section class="flex flex-row gap-2 items-center">
+                                                <img src="./assets/img/icons/dress.svg" class="text-black" width="28"
+                                                    height="28" alt="Schuhe" uk-svg>
+                                                <h3>Kleid</h3>
+                                            </section>
+                                        </a></li>
+                                    <li><a href="#">
+                                            <section class="flex flex-row gap-2 items-center">
+                                                <img src="./assets/img/icons/babydress.svg" class="text-black"
+                                                    width="28" height="28" alt="Schuhe" uk-svg>
+                                                <h3>Kinderkleidung</h3>
+                                            </section>
+                                        </a></li>
+                                </ul>
+                            </nav>
+                        </section>
+                    </section>
+                </section>
+                <nav class="col-span-5 border-b border-gray-300">
+                    <ul class="main-menu w-full flex flex-row">
+                        <li><a href="#">Startseite</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Kontakt</a></li>
+                        <li><a href="#">Über uns</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </section>
+        <!--End Main-menu-->
     </header>
     <!-- End Header -->
+    <!--Start Main-->
 
+    <!--End Main-->
     <!-- Footer -->
     <footer>
 
         <!-- footer-Menu-sticky -->
-        <section class="fixed bottom-0 start-0 xl:hidden w-full bg-white border-t border-gray-200">
+        <section class="fixed z-50 bottom-0 start-0 xl:hidden w-full bg-white border-t border-gray-200">
             <nav class="grid grid-cols-4">
                 <li class="col-span-1 list-none p-3"><a href="#" class="flex flex-col items-center justify-center">
                         <section><img src="./assets/img/icons/home.svg" alt="homepage" width="25" height="25" uk-svg>
