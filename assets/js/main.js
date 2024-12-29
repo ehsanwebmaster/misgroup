@@ -19,6 +19,28 @@ $("#mainslider").owlCarousel({
     },
   },
 });
+// Boxes
+$("#boxes").owlCarousel({
+  loop: true,
+  margin: 20,
+  nav: false,
+  dots: false,
+  autoplay: false,
+  responsive: {
+    0: {
+      items: 1,
+    },
+    600: {
+      items: 2,
+    },
+    1000: {
+      items: 2,
+    },
+    1200: {
+      items: 3,
+    },
+  },
+});
 //Brands
 $("#brandslider").owlCarousel({
   loop: true,
