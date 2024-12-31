@@ -107,10 +107,18 @@ input:focus {
 #brandslider img:hover {
   opacity: 1;
 }
+/*  index Blog */
+.blog-figure {
+  width: 100%;
+  height: 12.7rem;
+  object-fit: cover;
+}
 /* Story */
 .storybox:hover section {
   opacity: 0.5;
 }
+/* NewsLetter */
+
 /* Single Product */
 .uk-accordion > :nth-child(n + 2) {
   margin-top: 0px;

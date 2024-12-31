@@ -30,7 +30,7 @@ $("#boxes").owlCarousel({
     0: {
       items: 1,
     },
-    600: {
+    700: {
       items: 2,
     },
     1000: {
@@ -55,7 +55,7 @@ $("#brandslider").owlCarousel({
       items: 1,
     },
     600: {
-      items: 1,
+      items: 4,
     },
     1000: {
       items: 6,
@@ -74,7 +74,7 @@ $(".am-prev2").click(function () {
   // Parameters has to be in square bracket '[]'
   owl1.trigger("prev.owl.carousel", [300]);
 });
-//Newarrical
+//Newarrival
 $("#newarrivalslider").owlCarousel({
   loop: true,
   margin: 20,
@@ -88,9 +88,12 @@ $("#newarrivalslider").owlCarousel({
       items: 1,
     },
     600: {
-      items: 1,
+      items: 2,
     },
     1000: {
+      items: 3,
+    },
+    1300: {
       items: 4,
     },
   },
@@ -119,12 +122,19 @@ $("#hotideals").owlCarousel({
   responsive: {
     0: {
       items: 1,
+      margin: 0,
     },
     600: {
-      items: 1,
+      items: 2,
+      margin: 10,
     },
     1000: {
+      items: 3,
+      margin: 10,
+    },
+    1200: {
       items: 1,
+      margin: 10,
     },
   },
 });
@@ -139,4 +149,25 @@ $(".am-prev3").click(function () {
   // With optional speed parameter
   // Parameters has to be in square bracket '[]'
   owl3.trigger("prev.owl.carousel", [300]);
+});
+//Index-blog
+$("#index-blog").owlCarousel({
+  loop: true,
+  margin: 0,
+  nav: false,
+  dots: false,
+  autoplay: true,
+  autoplayTimeout: 5000,
+  autoplayHoverPause: true,
+  responsive: {
+    0: {
+      items: 1,
+    },
+    600: {
+      items: 1,
+    },
+    1000: {
+      items: 1,
+    },
+  },
 });
